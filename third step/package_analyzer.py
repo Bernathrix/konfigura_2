@@ -336,10 +336,8 @@ class PackageAnalyzer:
                     print(f"  - {error}")
                 sys.exit(1)
 
-            # Вывод конфигурации
             self.print_configuration(args)
 
-            # Сохранение аргументов
             self.args = args
 
             # Определяем стартовый пакет
